@@ -1,0 +1,13 @@
+Source: netrunner-keyring
+Section: misc
+Priority: optional
+Maintainer: Frédéric Gaudet <fred@linuxmint.com>
+Standards-Version: 3.7.3
+
+Package: netrunner-keyring
+Priority: important
+Architecture: all
+Depends: gnupg (>= 1.0.6-4)
+Description: GnuPG key of the Netrunner repository
+ The Netrunner repository digitally signs its Release files. This package
+ contains the repository key used for that.
